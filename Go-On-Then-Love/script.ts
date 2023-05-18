@@ -14,7 +14,6 @@ let env: Environment;
 
 // There are 2 scripts, one for the ex+ diff and one for the no-vibration diff
 // Only this one is "documented" since the other one is a copy with some deletions.
-// Questions? message me, Mart#1169 on discord
 
 //#region point defs
 const notePosOffset = 0.05;
