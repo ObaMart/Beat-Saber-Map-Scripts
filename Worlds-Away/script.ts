@@ -7,14 +7,13 @@ import {
     Color, COLOR, ColorType, Wall, WALL, ComplexKeyframesVec4, ComplexKeyframesLinear,
     RMLog, notesBetween, FILEPATH, DIFFS, exportZip, transferVisuals
 } from "https://deno.land/x/remapper@2.1.0/src/mod.ts";
-import { easyVec } from "https://deno.land/x/rmplus@1.0.0/math.ts";
 
 import {
     removeIds, onTrigger, hex2rgb, onAllNotes, rr, randomInt, randomNumber, randomMirror,
     HSVAtoRGBA, onAllWalls, pushPointDef, multipleNotesBetweens, cos, sin, extrapolateVec3,
     mirrorX, eVec3, mirrorEnv, easeOutCirc, multipleEventsBetweens, RGBAtoHSVA, flicker,
     easeOutExpo, easeInExpo, multiplyColor, rd, hexa2rgba, randomChoice, range, generateSpins,
-    Text, modelToWall, interpolateVec3, 
+    Text, modelToWall, interpolateVec3, easyVec
 } from "https://deno.land/x/rmplus@1.0.0/mod.ts"
 // I'm not even using half of these functions but I'm not gonna remove them from the import because I'll forget they exist when I make a new map
 
